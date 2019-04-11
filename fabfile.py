@@ -6,5 +6,4 @@ def hello(name='world'):
 
 def deploy():
   local('git status')
-  local('git add -p && git commit')
   local('git push')
